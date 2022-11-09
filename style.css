@@ -1104,7 +1104,19 @@ body {
 @media (min-width: 1366px) {
   .price__head {
     width: 1046px;
-    padding-left: 32px; } }
+    padding-left: 32px; }
+  .price__subtitle {
+    min-width: 934px;
+    max-width: 934px; }
+  .price__subserv {
+    min-width: 461px;
+    max-width: 461px; }
+  .price__subprice {
+    min-width: 177px;
+    max-width: 177px; }
+  .price__subterm {
+    min-width: 296px;
+    max-width: 296px; } }
 
 .price__swiper {
   width: 100%;
