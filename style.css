@@ -537,8 +537,12 @@ body {
     overflow: hidden;
     width: 288px;
     height: 90px;
-    margin: 0 16px 16px 16px;
+    margin: 0 auto 16px auto;
     padding: 0; }
+  .about__buttons {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto; }
   .about__content {
     font-size: 14px;
     line-height: 18px;
@@ -781,7 +785,7 @@ body {
 
 .swiper1 {
   height: 116px;
-  width: 320px;
+  width: 100%;
   overflow: hidden;
   position: relative; }
 
@@ -837,7 +841,7 @@ body {
   height: 12px; }
 
 .swiper-pagination-bullet-active {
-  --swiper-theme-color: $textback; }
+  background-color: #B5B6BC; }
 
 @media (min-width: 768px) {
   .brands__swiper {
@@ -932,7 +936,7 @@ body {
 
 .tech__swiper {
   height: 250px;
-  width: 320px;
+  width: 100%;
   overflow: hidden;
   margin-bottom: 24px;
   position: relative; }
@@ -989,6 +993,7 @@ body {
   .tech__swiper {
     height: auto;
     min-width: 720px;
+    max-width: 720px;
     overflow: visible;
     margin-bottom: 24px;
     margin-left: auto;
@@ -1025,7 +1030,8 @@ body {
 
 @media (min-width: 1366px) {
   .tech__swiper {
-    width: 998px; }
+    min-width: 998px;
+    max-width: 998px; }
   .tech__wrapper {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -1101,7 +1107,7 @@ body {
     padding-left: 32px; } }
 
 .price__swiper {
-  width: 320px;
+  width: 100%;
   height: 250px;
   position: relative;
   overflow: hidden; }
